@@ -7,7 +7,7 @@ define('TELEGRAM_API', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 define('STORAGE_CHAT_ID', '-1003632097565'); // Ganti dengan channel/group ID
 define('ADMIN_USERNAME', 'admin');
 define('ADMIN_PASSWORD', 'admin');
-define('MAX_FILE_SIZE', 1000 * 1024 * 1024); // 2GB
+define('MAX_FILE_SIZE', 2000 * 1024 * 1024); // 2GB
 define('ALLOWED_EXTENSIONS', ['jpg', 'jpeg', 'png', 'gif', 'pdf', 'doc', 'docx', 'txt', 'zip', 'rar', 'mp4', 'mp3', 'avi', 'mov', 'wav', 'xls', 'xlsx', 'ppt', 'pptx']);
 define('USERS_FILE', __DIR__ . '/users.json');
 define('FILES_FILE', __DIR__ . '/files.json');
